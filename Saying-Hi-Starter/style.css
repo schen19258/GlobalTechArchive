@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body, main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-image: url(assets/loops.jpg);
+  background-size: cover;
+  background-position: center;
+}
+main {
+  height: 100%;
+  background-color: whitesmoke;
+  padding: 10vh 15vw;
+}
+h1 {
+  font-size: 45px;
+  font-family: 'Rock Salt', sans-serif;
+  margin-bottom: 0;
+}
+p {
+  margin-top: 0;
+  font-size: 30px;
+  font-family: 'Instrument Serif', serif;
+}
