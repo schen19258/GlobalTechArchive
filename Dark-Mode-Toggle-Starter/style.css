@@ -1,0 +1,60 @@
+/* Light Mode Styles */
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	background-color: lightgrey;
+	position: sticky;
+}
+.navbar__list {
+	list-style: none;
+	margin: 0;
+	padding: 20px 10px;
+}
+.navbar__list-item {
+	display: inline;
+	margin: 0 20px;
+}
+.navbar__list-item:hover {
+	cursor: pointer;
+}
+.navbar__btn {
+	position: absolute;
+	right: 20px;
+	top: 20%;
+	border: 1px solid rgb(163, 163, 163);
+	border-radius: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+.navbar__btn:hover {
+	background-color: rgb(226, 226, 226);
+}
+article {
+	padding: 10px 20px;
+}
+a {
+	color: blue;
+}
+
+/* Dark Mode Styles */
+.dark {
+	background-color: #282a36;
+	color: #f8f8f2;
+}
+.dark .navbar {
+	background-color: #44475a;
+}
+.dark #dark-mode-button {
+	background-color: #6272a4;
+	color: #f8f8f2;
+	border: 1px solid #282a36;
+}
+.dark #dark-mode-button:hover {
+	background-color: #53618b;
+}
+.dark a {
+	color: #ff79c6;
+}
